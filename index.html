@@ -11,7 +11,31 @@
   <body>
     <div class="container">
       <div class="current-header" title="Partly Cloudy">Partly Cloudy</div>
+      <div class="temp-units">
+        <a href="#" data-unit="c" class="temp-unit-celsius">°C</a>
+        <span class="temp-unit-separator"></span>
+        <a href="#" data-unit="f" class="temp-unit-farenheit">°F</a>
+      </div>
+      <div class="current-city">Dallas, TX</div>
+      <div class="detailed-weather">
+        <div class="weather-card-0" title="Partly Cloudy">
+          <div class="hour-label">3 PM</div>
+          <img class="forecast-icon" src="media/partly-cloudy-day.svg" />
+          <div class="current-temp-label">52°</div>
+        </div>
+        <div class="weather-card-1" title="Mostly Cloudy">
+          <div class="hour-label">7 PM</div>
+          <img class="forecast-icon" src="media/partly-cloudy-night.svg" />
+          <div class="temp-label">48°</div>
+        </div>
+      </div>
+      <div class="weather-condition">
+        <span class="current-humidity">Humidity: <strong>43</strong>%</span>
+        <span class="current-wind">Wind: <strong>12 MPH N</strong></span>
+      </div>
     </div>
+    <div></div>
+    >
     <script src="src/app.js"></script>
   </body>
 </html>

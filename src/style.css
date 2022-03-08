@@ -1,0 +1,77 @@
+.container {
+  line-height: initial;
+  margin-bottom: 5px;
+  border: 1px solid rgb(0 0 0 / 6%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: block;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+  font-weight: 400;
+  margin: 0 auto;
+  font: inherit;
+  font-size: 100%;
+  background-color: #f9f;
+}
+
+.current-header {
+  font-size: 30px;
+}
+
+.detailed-weather {
+  display: flex;
+
+  margin-bottom: -5px;
+}
+
+.temp-units {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.43;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: right;
+}
+
+.forecast-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+}
+
+.current-temp-label {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 44px;
+  position: relative;
+  left: 5px;
+}
+
+.temp-label {
+}
+
+.weather-card-0 {
+  margin-left: -5;
+  text-align: center;
+  min-height: 145px;
+}
+
+.weather-card-1 {
+  text-align: center;
+  min-height: 145px;
+  padding-left: 20px;
+}
+
+.current-wind {
+  transform: uppercase;
+}
+
+div {
+  display: block;
+}
+
+body {
+  color: #222;
+  width: 600px;
+  padding: 20px 170px;
+}
