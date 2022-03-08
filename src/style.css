@@ -66,6 +66,17 @@
   transform: uppercase;
 }
 
+.credits {
+  font-weight: 700;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.credit-name {
+  font-weight: 600;
+  color: rgb(177, 82, 27);
+}
+
 div {
   display: block;
 }
