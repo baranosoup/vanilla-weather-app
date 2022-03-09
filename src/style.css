@@ -14,12 +14,14 @@
 }
 
 .current-header {
-  font-size: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 10px;
 }
 
 .detailed-weather {
   display: flex;
-
   margin-bottom: -5px;
 }
 
@@ -64,6 +66,10 @@
 
 .current-wind {
   transform: uppercase;
+}
+
+.current-city {
+  font-size: 35px;
 }
 
 .credits {
