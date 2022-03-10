@@ -11,6 +11,16 @@
   </head>
   <body>
     <div class="container">
+      <form class="search-bar" id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input type="search" placeholder="Enter your city" class="form-control" id="city-input" autocomplete="off" />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="btn btn-primary" />
+          </div>
+        </div>
+      </form>
       <div class="current-header" title="current-description"><strong id="description"></strong></div>
       <div class="temp-units">
         <a href="#" data-unit="c" class="temp-unit-celsius">°C</a>
