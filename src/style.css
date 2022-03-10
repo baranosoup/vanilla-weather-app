@@ -25,14 +25,14 @@
   margin-bottom: -5px;
 }
 
-.temp-units {
+.weather-temperature .active {
   color: #222;
-  font-size: 1em;
-  line-height: 1.43;
-  font-weight: 600;
+  cursor: default;
   text-decoration: none;
-  cursor: pointer;
-  text-align: right;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 
 .forecast-icon {
